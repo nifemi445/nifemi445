@@ -12,7 +12,10 @@ You can click the Preview link to take a look at your changes.
 <BODY>
 <HTML>
 <h2>"Hello World"</h2>
-<p>"Am here to teach you <b>CODING</b> ..
+<p>"Am here to teach you <b>CODING</b>
+ <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
 </BODY>
 </HTML>
 
